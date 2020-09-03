@@ -1,0 +1,203 @@
+
+    .tombol{
+        border-radius: 20px;
+        border-color: silver;
+        width: 100px;
+    }
+    .jumbotron{
+        background-image: url(img/bg-17c.jpeg);
+        background-size: contain;
+        height: 340px;
+    }
+    .card-link{
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    .cardlist a{
+        font-family: Arial;
+        color:dimgray;
+        font-size: 20px;
+        padding-left: 35px;
+        background-image: linear-gradient(to left rgba(0,0,0,0), rgba(0,0,0,0.1));
+
+    }
+    .cardlist{
+        z-index: 1;
+        margin-bottom: -200px;
+        height: 330px;
+        border-radius: 15px;
+        background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0));
+        border: 0;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 1);
+    }
+
+    .cardlist a:hover{
+        text-transform: uppercase;
+        color: rgb(10, 10, 10);
+    }
+    .list-group-item{
+        background-image: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0));
+        border: 0;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 1);
+    }
+    /* .cardlist::after{
+        content: '';
+        display: block;
+        height: 100% ;
+        width: 100%;
+        background-image: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0));
+        top: 0;
+        z-index: -1;
+        position: absolute;
+    } */
+
+
+    /* navbar */
+    .navbar{
+        position: relative;
+        z-index: 1;
+        margin-right: 20px;
+    }
+    .navbar-brand{
+        font-family: Viga;
+        font-size: 32px;
+        color: white;
+    }
+    .panel{
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        height: 70px;
+        border-radius: 12px;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 1);
+    }
+    .panel h2{
+        text-align: center;
+        font-size: 25px;
+        font-family: Viga;
+        margin-top: 15px;
+    }
+
+    /* login */
+    .loginbody{
+        content: '';
+        display: block;
+        position: relative;
+        background-image: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0));
+        /* height: fit-content; */
+    }
+
+    .loginteam{
+        margin-top: 100px;
+        margin-bottom: 30px;
+        height: 80px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0));
+        
+    }
+    .loginimg{
+        width: 363px;
+        margin-bottom: 20px;
+    }
+    
+    .tombollogin{
+        border-radius: 16px;
+        border-color: silver;
+        width: 80px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+   .colomform{
+       padding-left: 100px;
+   }
+   .textside {
+    color: white;
+}
+
+
+
+/* desktop */
+@media (min-width: 992px) { 
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    } 
+
+    .navbar-brand{
+        padding-left: 25px;
+        padding-right: 10px;
+        text-transform: uppercase;
+    }
+    .navbar{
+        margin-left: 220px;
+        
+    }
+    /* .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid cadetblue;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 5px;
+        margin-bottom: -5px;
+    }  */
+    .jumbotron{ 
+        margin-top: -75px;
+        background-size: 1350px;
+        height: 900px;
+    }
+    .nav-link , .navbar-brand{
+        text-shadow: 0px 1px 1px rgba(8, 8, 8, 0.7);
+    }
+    .jumbotron::after{
+        content: '';
+        display: block;
+        height: 1000px ;
+        width: 100%;
+        background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+        top: 0;
+        position: absolute;
+    }
+    .panel{
+        background-color: white;
+        position: relative;
+        z-index: 1;
+        height: 100px;
+        border-radius: 12px;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 1);
+    }
+    .panel h2{
+        text-align: center;
+        font-size: 50px;
+        font-family: Viga;
+        margin-top: 15px;
+    }
+    .tombol{
+        text-transform: uppercase;
+        margin-left: 30px;
+    }
+    .loginimg{
+        width: 380px;
+        margin-bottom: 0;
+    }
+    .tombollogin{
+        border-radius: 16px;
+        border-color: silver;
+        width: 80px;
+        margin-left: 20px;
+    }
+    .sidebar{
+        margin-top: -75px;
+    }
+    .test{
+        margin-top: 100px;
+    }
+    .side{
+        position: fixed;
+    }
+    #collapse1{
+        overflow-y: auto;
+        height: 400px;
+    }
+
+    }
